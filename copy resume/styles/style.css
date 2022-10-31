@@ -1,0 +1,98 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+img{
+    display: block;
+    width: 100%;
+}
+
+.personal-info{
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-color: #3f6592;    
+}
+
+.photo{
+    width: 135px;
+    height: 135px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+
+.img{
+    object-fit: cover;
+    height: 100%;
+}
+h1 {
+    font-size: 20px;
+    color: beige;
+    line-height: 2.5;
+}
+h2 {
+    font-size: 20px;
+    color: beige;
+    line-height: 2.5;
+}
+h3 {
+    font-size: 20px;
+    color: beige;
+    line-height: 2.5;
+}
+
+ul{
+    list-style-type: none;
+    line-height: 1.5;
+}
+
+li {
+    font-size: 14px;
+    color: aliceblue;
+}
+
+p {
+    font-size: 12px;
+    color: aliceblue;
+}
+
+a {
+    font-size: 12px;
+    color: aliceblue;
+}
+.experience {
+    padding-top: 25px;
+    padding-right: 25px;
+    padding-left: 25px;
+    padding-bottom: 25px;
+    background-color: #f0f3f7; 
+}   
+.work, .education, .study, .walk, .trade {
+    color: #000;
+    font-size: 20px;
+    line-height: 2.5;
+    
+}
+.profi {
+    color: #000;
+    font-size: 16px;
+    line-height: 2.5;
+}
+.date {
+    color: #000;
+    font-size: 12px;
+    left: 50px;
+}
+.profi-1 {
+    color: #000;
+    font-size: 14px;
+}
