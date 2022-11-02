@@ -1,0 +1,33 @@
+.fon {
+    padding: 10px 30px;
+    background-color: #333;
+}
+.border {
+    margin: 450px;
+    margin-left: 550px;
+    border: none;
+    width: 500px;
+    background-color:white;
+    padding: 50px 20px;
+}
+.line {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 35px;
+    font-weight: bold;
+}
+hr {
+    border: none;
+    border-top: 3px solid black;
+    color: black;
+    overflow: visible;
+    text-align: center;
+    height: 5px;
+}
+
+hr:after {
+    background: #fff;
+    content: 'Title';
+    padding: 0 4px;
+    position: relative;
+    top: -13px;
+}
