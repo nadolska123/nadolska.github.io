@@ -1,0 +1,32 @@
+.circle-1 {
+    width: 400px;
+    height: 400px;
+    border-radius: 50%;
+    position: relative;
+    background-color: red;
+    border: 1px solid black;
+  }
+ .circle-2 {
+    width: 60%;
+    height: 60%;
+    margin: 3.5em auto;
+    background-color: white;
+    padding: 25px;
+    position: relative;
+    border-radius: 50%;
+}
+.circle-3 {
+    width: 10%;
+    height: 10%;
+    margin: 5em auto;
+    background-color: blue;
+    padding: 25px;
+    position: relative;
+    border-radius: 50%;
+}
+html {
+    background: white;
+    margin-left: 300px;
+    padding: 200px;
+  }
+ 
