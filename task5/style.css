@@ -15,15 +15,17 @@ body {
     padding-left: 350px;
     padding-right: 150px;
     padding-top: 100px;
-    margin: 230px auto;       
+    margin: 230px auto;
+       
 }
+
 img {
     width: 300px;
     height: 350px;
     position: absolute;
     left: 250px;
     right: 30px;
-}    
+   }    
 .name {
     display: block;
     width: 300px;
@@ -32,6 +34,7 @@ img {
     position: relative;   
     top: 150px; 
     right: 340px;
+  
 }
 p {
     font-size: 30px;
@@ -47,24 +50,42 @@ p {
     left: 550px;
     top: 330px;
     margin-top: 0;
-    display: grid;
-    grid-template-columns: auto 1fr;
-    grid-gap: 1rem;
-    align-items: baseline;
+    display: block;
+  
 }
-h3 {
+.menu-1 {
+    width: 100px;
+    height: 0;
+    background-color:aliceblue;
+    position: absolute;
+    display: grid;
+    padding-left: 10px;
+
+         
+}
+.menu-2 {
+    width: 100px;
+    height: 0;
+    background-color:aliceblue;
+    position: absolute;
+    display: block;
+    padding-left: 250px;
+
+            
+}
+.tema {
     font-size: 25px;
     text-align: center;
     padding: 20px 0;
     color:black;
 }
-.blog-1 {
+.blog {
     display: block;
     width: 200px;
     height: 100px;
     border-bottom: 2px solid;
     border-bottom-color: gray;
-}
+   }
 .ofer {
     font-size: 20px;
     text-align: center;
@@ -86,14 +107,24 @@ h3 {
     border-bottom: 2px solid;
     border-bottom-color: gray;
     float: left;
-}
-.button {
-    display: inline-block;
-    width: 100px;
-    height: 70px;
-    border: 1px solid #000;
-    color: white;
-    text-transform: uppercase;
+    }
+  
+a {
+    position: absolute;
+    display: block;
+    bottom: 35px;
+    right: 80px;
+    height: 30px;
+    max-width: 175px;
+    padding: 18px 35px;
+    text-decoration: none;
+    font-weight: 900;
+    font-size: 17px;
     background-color: #000;
-    float: right;
-}      
+    color: #fff;
+  }
+  
+  a:hover {
+    border-radius: 10px;
+    color: #fdca19;
+  }    
