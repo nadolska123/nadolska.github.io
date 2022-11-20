@@ -1,0 +1,334 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background-color: rgb(65, 62, 62);
+}
+.wrap {
+    display: block;
+    width: 1000px;
+    height: 800px;
+    margin-left: 350px;
+    margin-top: 100px;
+    padding: 100px;
+    background-color: rgb(196, 190, 190);
+}
+.conteiner {
+    width: 600px;
+    height: 600px;
+    margin-left: 130px;
+    display: grid;
+    gap: 0px;
+    grid-auto-columns: 1fr; 
+    grid-auto-rows: 1fr; 
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+    background-color: black;
+}
+.blok {
+    display: block;
+    width: 16px;
+    height: 16px;
+    -webkit-user-select: none;
+    margin: auto;
+}
+    
+.steel-1 {
+   background-color: grey;
+   grid-row-start: 1;
+   grid-column-start: 7;
+   grid-row-end: 5;
+   grid-column-end: 9;
+}
+.steel-1-1 {
+   background-color: grey;
+   grid-row-start: 1;
+   grid-column-start: 15;
+   grid-row-end: 3;
+   grid-column-end: 17;
+}
+.steel-1-2 {
+   grid-row-start: 5;
+   grid-column-start: 21;
+   background-color: grey;
+   grid-row-end: 7;
+   grid-column-end: 23;
+}
+.steel-1-3 {
+   grid-row-start: 7;
+   grid-column-start: 19;
+   background-color: grey;
+   grid-row-end: 9;
+   grid-column-end: 21;
+}
+.steel-1-4 {
+    background-color: grey;
+    grid-row-start: 9;
+    grid-column-start: 13;
+    grid-row-end: 11;
+    grid-column-end: 15;
+}
+.steel-1-5 {
+    background-color: grey;
+    grid-row-start: 11;
+    grid-column-start: 17;
+    grid-row-end: 13;
+    grid-column-end: 19;
+}
+.steel-1-6 {
+    background-color: grey;
+    grid-row-start: 9;
+    grid-column-start: 25;
+   grid-row-end: 11;
+   grid-column-end: 27;
+}
+.steel-1-7 {
+   background-color: grey;
+   grid-row-start: 19;
+   grid-column-start: 21;
+   grid-row-end: 21;
+   grid-column-end: 23;
+}
+.steel-1-8 {
+    background-color: grey;
+    grid-row-start: 13;
+    grid-column-start: 15;
+    grid-row-end: 15;
+    grid-column-end: 17;
+}
+.steel-1-9 {
+    background-color: grey;
+   grid-row-start: 15;
+   grid-column-start: 7;
+   grid-row-end: 19;
+   grid-column-end: 9;
+}
+.steel-1-10 {
+    background-color: grey;
+    grid-row-start: 17;
+    grid-column-start: 1;
+     grid-row-end: 19;
+    grid-column-end: 3;
+}
+   
+
+.wood-2 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 3;
+    grid-column-start: 3;
+     grid-row-end: 7;
+    grid-column-end: 5;
+ }
+.wood-2-1 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 7;
+    grid-column-start: 7;
+    grid-row-end: 11;
+    grid-column-end: 9;
+ }
+.wood-2-2 {
+   grid-row-start: 5;
+   grid-column-start: 13;
+   background-color: rgb(241, 164, 75);
+   grid-row-end: 7;
+   grid-column-end: 15;
+ }
+.wood-2-3 {
+    grid-row-start: 3;
+   grid-column-start: 15;
+   background-color: rgb(241, 164, 75);
+   grid-row-end: 7;
+   grid-column-end: 17;
+}
+.wood-2-4 {
+    grid-row-start: 3;
+    grid-column-start: 19;
+    background-color: rgb(241, 164, 75);
+    grid-row-end: 7;
+    grid-column-end: 21;
+ }
+.wood-2-5 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 3;
+   grid-column-start: 23;
+   grid-row-end: 7;
+   grid-column-end: 25;
+ }
+.wood-2-6 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 11;
+    grid-column-start: 11;
+    grid-row-end: 13;
+    grid-column-end: 13;
+}
+.wood-2-7 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 9;
+    grid-column-start: 19;
+    grid-row-end: 11;
+    grid-column-end: 21;
+}
+.wood-2-8 {
+    background-color: rgb(241, 164, 75);
+   grid-row-start: 9;
+   grid-column-start: 23;
+   grid-row-end: 11;
+   grid-column-end: 25;
+}
+.wood-2-9 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 13;
+    grid-column-start: 23;
+   grid-row-end: 21;
+   grid-column-end: 25;
+}
+.wood-2-10 {
+   background-color: rgb(241, 164, 75);
+   grid-row-start: 23;
+   grid-column-start: 23;
+   grid-row-end: 27;
+   grid-column-end: 25;
+}
+.wood-2-11 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 25;
+    grid-column-start: 21;
+    grid-row-end: 27;
+    grid-column-end: 23;
+}
+.wood-2-12 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 23;
+    grid-column-start: 19;
+    grid-row-end: 27;
+    grid-column-end: 21;
+}
+.wood-2-13 {
+   background-color: rgb(241, 164, 75);
+   grid-row-start: 19;
+   grid-column-start: 19;
+   grid-row-end: 21;
+   grid-column-end: 21;
+}
+.wood-2-14 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 15;
+    grid-column-start: 19;
+    grid-row-end: 17;
+    grid-column-end: 21;
+}
+.wood-2-15 {
+    background-color: rgb(241, 164, 75);
+   grid-row-start: 15;
+   grid-column-start: 15;
+   grid-row-end: 23;
+   grid-column-end: 17;
+}
+.wood-2-16 {
+    background-color: rgb(241, 164, 75);
+   grid-row-start: 24;
+   grid-column-start: 15;
+   grid-row-end: 27;
+   grid-column-end: 16;
+}
+.wood-2-17 {
+    background-color: rgb(241, 164, 75);
+   grid-row-start: 24;
+   grid-column-start: 13;
+   grid-row-end: 25;
+   grid-column-end: 15;
+}
+.wood-2-18 {
+    background-color: rgb(241, 164, 75);
+   grid-row-start: 24;
+   grid-column-start: 12;
+   grid-row-end: 27;
+   grid-column-end: 13;
+}
+.wood-2-19 {
+    background-color: rgb(241, 164, 75);
+    grid-row-start: 19;
+    grid-column-start: 13;
+   grid-row-end: 23;
+   grid-column-end: 15;
+}
+.wood-2-20 {
+    background-color: rgb(241, 164, 75);   
+    grid-row-start: 19;
+    grid-column-start: 13;
+    grid-row-end: 23;
+    grid-column-end: 15;
+}
+.wood-2-21 {
+    background-color: rgb(241, 164, 75);   
+    grid-row-start: 15;
+   grid-column-start: 11;
+   grid-row-end: 23;
+   grid-column-end: 13;
+}
+.wood-2-22 {
+    background-color: rgb(241, 164, 75);   
+   grid-row-start: 19;
+   grid-column-start: 7;
+   grid-row-end: 23;
+   grid-column-end: 9;
+}
+.wood-2-23 {
+    background-color: rgb(241, 164, 75);      
+    grid-row-start: 25;
+    grid-column-start: 7;
+    grid-row-end: 27;
+    grid-column-end: 9;  
+}
+.wood-2-24 {
+    background-color: rgb(241, 164, 75);    
+    grid-row-start: 17;
+   grid-column-start: 3;
+   grid-row-end: 27;
+   grid-column-end: 5;
+}
+.wood-2-25 {
+    background-color: rgb(241, 164, 75);    
+    grid-row-start: 13;
+    grid-column-start: 3;
+    grid-row-end: 15;
+    grid-column-end: 9;
+}
+
+
+.grass-3 {
+   background-color: green;
+   grid-row-start: 9;
+   grid-column-start: 1;
+   grid-row-end: 13;
+   grid-column-end: 3;
+}
+.grass-3-1 {
+    background-color: green;
+    grid-row-start: 11;
+   grid-column-start: 3;
+   grid-row-end: 13;
+   grid-column-end: 5;
+}
+.grass-3-2 {
+    background-color: green;
+    grid-row-start: 9;
+    grid-column-start: 21;
+    grid-row-end: 15;
+    grid-column-end: 23;
+}
+.grass-3-3 {
+   background-color: green;
+   grid-row-start: 13;
+   grid-column-start: 9;
+   grid-row-end: 15;
+   grid-column-end: 15;
+}
+.grass-3-4 {
+    background-color: green;
+    grid-row-start: 15;
+   grid-column-start: 9;
+   grid-row-end: 17;
+   grid-column-end: 11;
+}
+
